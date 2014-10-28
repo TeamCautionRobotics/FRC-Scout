@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+
+
+.teamListTable{
+  width:100%;
+  text-align:left;
+  border:1px solid black;
+
+}
