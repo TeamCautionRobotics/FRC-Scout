@@ -3,5 +3,6 @@ team: {
   number: 0,
   highGoal: false,
   lowGoal: false,
-  autonomous: false
+  autonomous: false,
+  notes: "Add notes here"
 }
