@@ -11,15 +11,16 @@
 <template name="teamList">
  <h2>The Teams</h2>
 
- <div class="teamListTable">
-   <table>
+ <div>
+   <table class="teamListTable">
       <tr>
-        <th>Team</th>
-        <th>Number</th>
+        <th class="teamListTable">Team</th>
+        <th class="teamListTable">Number</th>
       </tr>
       {{#each teams}}
       <tr>
-        <td>{{name}}: </td><td> {{number}}</td>
+        <td class="teamListTable">{{name}}: </td>
+        <td class="teamListTable"> {{number}}</td>
       </tr>
       {{/each}}
    </table>
