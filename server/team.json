@@ -1,0 +1,7 @@
+team: {
+  name: "a name here",
+  number: 0,
+  highGoal: false,
+  lowGoal: false,
+  autonomous: false
+}
